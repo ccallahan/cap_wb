@@ -1,0 +1,35 @@
+body, td, th, p, ul, ol, div, li, dt, dd, a, i, b, br, center,
+blockquote, input, select, textarea, button, form {
+   font-family: helvetica, arial, sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+   font-family: helvetica, arial, sans-serif;
+}
+
+pre, code, tt {
+   font-family: courier, monospace;
+}
+
+a:link { color : #0000FF; }
+a:visited { color : #660066; }
+a:hover { color : #ff0000; text-decoration: none; }
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    background-color: #00f5ff;
+    margin: 20px;
+    padding: 0;
+}
+
+/* input[type:"text"]:disabled {
+  background-color: #ff0000;
+  text-align: center; 
+}  */
+
+:disabled {
+  background-color: #dddddd;
+  text-align: center;   
+}
